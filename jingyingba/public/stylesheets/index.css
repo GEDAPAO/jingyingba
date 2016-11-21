@@ -1,0 +1,190 @@
+
+.marin{
+    width:1232px;
+    position: relative;
+    margin: 40px  auto 20px;
+}
+.zhuc{
+    width: 1232px;
+    height: 676px;
+    background: url("../images/11.png");
+    overflow: hidden;
+}
+.changtiao{
+    width: 960px;
+    height: 200px;
+    margin: 400px auto 0;
+}
+.changtiao li{
+    width:233px;
+    height: 198px;
+    margin-left: 5px;
+    float: left;
+    border-radius: 10px;
+    background: white;
+    cursor: pointer;
+    border:1px solid transparent;
+}
+.biaoqian .i{
+    width: 83px;
+    height: 100px;
+    display: block;
+    background: url("../images/ios_bg.png");
+    margin: 20px auto 0px;
+}
+.ios p{
+    font-size: 24px;
+    color: #8194a6;
+    text-align: center;
+    line-height: 70px;
+}
+.ios:hover .i{
+    background: url("../images/ios_bg2.png");
+}
+.ios:hover p{
+    color: #fb6c03;
+}
+.bq .h{
+    width: 83px;
+    height: 100px;
+    display: block;
+    background: url("../images/html5_bg.png");
+    margin: 20px auto 0px;
+}
+.bq p{
+    font-size: 24px;
+    color: #8194a6;
+    text-align: center;
+    line-height: 70px;
+}
+.bq:hover .h{
+    background: url("../images/html5_bg2-1.png");
+}
+.bq:hover p{
+    color: #fb6c03;
+}
+
+.uu .u{
+    width: 97px;
+    height: 100px;
+    display: block;
+    background: url("../images/unity_bg.png");
+    margin: 20px auto 0px;
+}
+.uu p{
+    font-size: 24px;
+    color: #8194a6;
+    text-align: center;
+    line-height: 70px;
+}
+.uu:hover .u{
+    background: url("../images/unity_bg2.png");
+}
+.uu:hover p{
+    color: #fb6c03;
+}
+.mm{
+    overflow: hidden;
+}
+.mmm{
+    display: block;
+    width: 100px;
+    height: 30px;
+    margin: 0 auto;
+}
+.mmm .m{
+    width: 20px;
+    height: 20px;
+    display: block;
+    background:#8194a6;
+    border-radius: 50%;
+    float: left;
+    margin-left: 10px;
+    margin-top: 80px;
+}
+.mm p{
+    font-size: 24px;
+    color: #8194a6;
+    text-align: center;
+    line-height: 70px;
+    margin-top: 90px;
+}
+.mm:hover .m{
+    background:#fb6c03;
+}
+.mm:hover p{
+    color: #fb6c03;
+}
+.native{
+    width:1232px;
+    height: 254px;
+    background: white;
+    margin: 20px auto 0;
+    border: 1px solid transparent;
+    position: relative;
+}
+.hezuo{
+    width:1120px;
+    height: 50px;
+    /*background: red;*/
+    line-height: 50px;
+    margin: 50px auto 0px;
+    overflow: hidden;
+    margin-left: 30px;
+}
+.tup{
+    width: 1278px;
+    height: 50px;
+}
+.hezuo p{
+    float: left;
+    color: #65707a;
+}
+.tup li{
+    width:152px;
+    height: 50px;
+    float: left;
+    margin-left: 25px;
+    transition: 1s linear;
+}
+.next{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 0px;
+    top:65px;
+    background: url("../images/xuebi.png");
+    cursor: pointer;
+}
+
+.qiye{
+    width:1120px;
+    height: 60px;
+    line-height: 50px;
+    margin: 50px auto 0px;
+    overflow: hidden;
+    margin-left: 30px;
+}
+.renren{
+    width: 1278px;
+    height: 60px;
+}
+.qiye p{
+    float: left;
+    color: #65707a;
+}
+.renren li{
+    width:183px;
+    height: 60px;
+    float: left;
+    margin-left: 29px;
+}
+.next2{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 0px;
+    top:170px;
+    background: url("../images/xuebi.png");
+    cursor: pointer;
+}

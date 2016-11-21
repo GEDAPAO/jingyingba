@@ -1,0 +1,60 @@
+extends layout
+
+block content
+	link(rel='stylesheet', href='/stylesheets/reg.css')
+	div.logins
+		div.mwidth
+			div.logreg_box
+				a(href="/login").dd 登录
+				a(href="javascript:;").zz 注册
+				div.login_box
+					form.form
+						div.box
+							span.sj
+							input(type="text" placeholder="请输入手机号码").username
+						div.box
+							span.pass
+							input(type="password" placeholder="请输入密码(6~20字符)").password
+						div.anniu
+							input(type="checkbox").women
+							span 记住我
+							span.wangji 忘记密码
+						div.dianji
+							input(type="button" value="登录")
+						p #{data}
+			div.reg
+				span.dd 登录
+				span.zz 注册
+				div.monad
+					form(action="/reg" method="POST").formn
+						div.boxn
+							span.sj
+							input(type="text" placeholder="请输入手机号码" value="").text#textc
+						div.boxn
+							span.unlock
+							input(type="text" placeholder="注册码" value="").text
+							span.yzm 丨 获取验证码
+						div.boxn
+							span.pass
+							input(type="password" placeholder="请输入密码(6~20字符)" value="").text#texts
+						div.boxn
+							span.passn
+							input(type="password" placeholder="再次输入密码" value="").text#textj
+						div.an
+							input(type="checkbox").wm
+							span 同意网站条款
+						div.dji
+							input(type="button" value="提交")
+						p #{data}
+
+
+
+
+
+
+
+
+
+
+		script(src="/javascripts/ajax.js")
+		script(src="/javascripts/reg.js")

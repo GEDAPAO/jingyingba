@@ -1,0 +1,229 @@
+.main{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.swiper{
+    width: 1232px;
+    position: relative;
+    margin: 0 auto 30px;
+    overflow: hidden;
+}
+.swipern{
+    width: 5000px;
+    height: 406px;
+    transition: 0.3s linear;
+}
+.swipern li{
+    float: left;
+}
+.zhuzi{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    right: 0px;
+    bottom: 15px;
+    text-align: center;
+}
+.zhuzi li{
+    width: 10px;
+    height: 10px;
+    background: red;
+    border-radius: 50%;
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    background:rgba(255,255,255,0.4);
+    cursor: pointer;
+}
+#taken{
+    background: white;
+}
+.swiper .prv{
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background:url("../images/left.png");
+    position: absolute;
+    top:50%;
+    margin-top: -40px;
+    display: none;
+    cursor: pointer;
+
+}
+.swiper .nextn{
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background:url("../images/right.png");
+    top:50%;
+    margin-top: -40px;
+    right: 0px;
+    position: absolute;
+    display: none;
+    cursor: pointer;
+}
+.livecourse{
+    width: 1232px;
+    min-height: 610px;
+    /*background: red;*/
+    margin: 0 auto;
+}
+.livecourse_left{
+    width: 184px;
+    position: relative;
+    float:left;
+}
+#ss{
+    background: #fafafa;
+}
+.livecourse_left ul li a{
+    display: block;
+    width: 184px;
+    height: 60px;
+    background: white;
+    text-align: center;
+    line-height: 60px;
+    color:#65707a;
+}
+.livecourse_left ul span{
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+.livecourse_left ul .san .sanjiao{
+    margin-left: 20px;
+    background: url("../images/xuebi.png") no-repeat 0px -361px;
+    top:11px;
+    left:136px;
+    /*display: none;*/
+}
+.livecourse_left ul .sanjiaon{
+    margin-left: 20px;
+    background: url("../images/xuebi.png") no-repeat 0px -361px;
+    top:71px;
+    left:136px;
+    display: none;
+}
+.livecourse_left ul .sanjiaos{
+    margin-left: 20px;
+    background: url("../images/xuebi.png") no-repeat 0px -361px;
+    top:131px;
+    left:136px;
+    display: none;
+}
+.livecourse_left ul .sanjiaoc{
+    margin-left: 20px;
+    background: url("../images/xuebi.png") no-repeat 0px -361px;
+    top:191px;
+    left:136px;
+    display: none;
+}
+.livecourse_left ul .sanjiaod{
+    margin-left: 20px;
+    background: url("../images/xuebi.png") no-repeat 0px -361px;
+    top:251px;
+    left:136px;
+    display: none;
+}
+.livecourse_right{
+    float:right;
+    width: 1024px;
+}
+.livecourse_right_tle{
+    width: 1024px;
+    height: 43px;
+    /*background: red;*/
+    margin-bottom: 20px;
+}
+.livecourse_right_tle a{
+    width: 180px;
+    height: 43px;
+    display: block;
+    text-align: center;
+    line-height:43px;
+    float: left;
+    color: #65707a;
+    border-bottom: 2px solid transparent;
+    font-size: 16px;
+}
+#xiaoyou{
+    color:#fb6c03;
+    border-bottom: 2px solid #fb6c03;
+}
+.livecourse_right_cont{
+    width: 1024px;
+}
+.livecourse_right_cont ul{
+    width: 1024px;
+    height:1040px;
+}
+.livecourse_right_cont ul li{
+    width: 1024px;
+    height: 190px;
+    background: white;
+    border: 1px solid lightgray;
+    margin-top: 20px;
+    float: left;
+}
+.livecourse_right_cont ul li:hover{
+    border: 1px solid #fb6c03;
+    cursor: pointer;
+}
+.livecourse_right_cont ul span{
+    float: left;
+    width: 302px;
+    height: 152px;
+    display: block;
+    margin-top: 18px;
+    margin-left: 18px;
+    background: url("../images/HTML5.jpg") no-repeat;
+    background-size: 302px 152px;
+}
+.livecourse_right_cont ul .u3{
+    background: url("../images/Unity-3D.jpg") no-repeat;
+    background-size: 302px 152px;
+}
+.livecourse_right_cont .info{
+    width: 476px;
+    float: left;
+    margin-top: 18px;
+    margin-left: 20px;
+}
+.livecourse_right_cont .info .title{
+    color: #65707a;
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+.livecourse_right_cont .info .lanou{
+    font-size: 12px;
+    color:gray;
+}
+.livecourse_right_cont .info .shengyu{
+    font-size: 12px;
+    color:#fb6c03;
+}
+.livecourse_right_cont .info .zhibo{
+    margin-top: 20px;
+}
+.livecourse_right_cont .dx{
+    width: 125px;
+    height: 50px;
+    float: right;
+    margin-top: 25px;
+}
+.livecourse_right_cont .dx i{
+   display: block;
+    font-size: 20px;
+}
+.livecourse_right_cont .dx .da{
+   text-decoration: line-through;
+    color: #c3c8cd;
+}
+.livecourse_right_cont .dx .xiao{
+    color: #fb6c03;
+}

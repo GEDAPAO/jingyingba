@@ -1,0 +1,299 @@
+.logins{
+	width: 100%;
+	height: 678px;
+	background: url("../images/logreg_bg.jpg") no-repeat center;
+	background-size: cover;
+}
+.logins .mwidth{
+	position: relative;
+}
+.mwidth{
+	height: 100%;
+	width: 1232px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logreg_box{
+	position: absolute;
+	width: 352px;
+	right: 150px;
+	top:79px;
+	overflow: hidden;
+	display: none;
+}
+.logreg_box .dd{
+	width:176px;
+	height: 60px;
+	background-color:rgba(0,0,0,0.7);
+	text-align: center;
+	line-height: 60px;
+	color: white;
+	float: left;
+	font-size: 18px;
+	cursor: pointer;
+}
+.logreg_box .zz{
+	width:176px;
+	display: block;
+	height: 60px;
+	float: left;
+	right: 0;
+	text-align: center;
+	background-color:rgba(0,0,0,0.5);
+	line-height: 60px;
+	color: #999999;
+	font-size: 18px;
+	cursor: pointer;
+}
+.login_box{
+	width: 352px;
+	height: 274px;
+	margin-top: 60px;
+	border:1px solid transparent;
+	background-color:rgba(0,0,0,0.7);
+
+}
+.login_box .box{
+	width: 298px;
+	height: 40px;
+	position: relative;
+	border:1px solid white;
+	margin:30px auto 20px;
+}
+.box .sj{
+	width: 40px;
+	height: 40px;
+	display: block;
+	background:url("../images/xuebi.png") no-repeat 13px -73px;
+	float: left;
+}
+.box .pass{
+	width: 40px;
+	height: 40px;
+	display: block;
+	background:url("../images/xuebi.png") no-repeat 13px -182px;
+	float: left;
+}
+.box .username{
+	float: left;
+	height: 15px;
+	width: 254px;
+	background:transparent;
+	border: none;
+	outline: none;
+	position: absolute;
+	padding: 11px 0px;
+	font-size: 15px;
+	text-indent: 13px;
+}
+.box .password{
+	float: left;
+	height: 15px;
+	width: 254px;
+	background:transparent;
+	border: none;
+	outline: none;
+	position: absolute;
+	padding: 11px 0px;
+	font-size: 15px;
+	text-indent: 13px;
+}
+.login_box .anniu{
+	width: 320px;
+	height: 30px;
+	line-height: 30px;
+	color: white;
+}
+.anniu .women{
+	margin-left: 25px;
+}
+.anniu .wangji{
+	float: right;
+}
+.dianji{
+	width: 300px;
+	height: 55px;
+	margin: 0 auto;
+}
+.dianji input{
+	width: 300px;
+	height: 40px;
+	background:#fb6c03;
+	border: none;
+	cursor: pointer;
+	text-align: center;
+	font-size: 16px;
+	color: white;
+	margin-top: 15px;
+}
+.mwidth .reg{
+	width: 352px;
+	height: 458px;
+	position: absolute;
+	right: 150px;
+	top:79px;
+	overflow: hidden;
+	/*display: none;*/
+}
+.reg .dd{
+	display: block;
+	width:176px;
+	height: 60px;
+	text-align: center;
+	background-color:rgba(0,0,0,0.5);
+	line-height: 60px;
+	color: gray;
+	float: left;
+	font-size: 18px;
+	cursor: pointer;
+}
+.reg .zz{
+	width:176px;
+	height: 60px;
+	float: left;
+	right: 0;
+	text-align: center;
+	background-color:rgba(0,0,0,0.7);
+	line-height: 60px;
+	color: white;
+	font-size: 18px;
+	cursor: pointer;
+}
+.reg .monad{
+	width: 352px;
+	height: 398px;
+	margin-top: 60px;
+	border:1px solid transparent;
+	background-color:rgba(0,0,0,0.7);
+}
+.monad .boxn{
+	width: 298px;
+	height: 40px;
+	position: relative;
+	border:1px solid white;
+	margin:30px auto 20px;
+}
+.boxn .sj{
+	width: 40px;
+	height: 40px;
+	display: block;
+	background:url("../images/xuebi.png") no-repeat 13px -73px;
+	float: left;
+}
+.boxn .unlock{
+	width: 40px;
+	height: 40px;
+	display: block;
+	background:url("../images/xuebi.png") no-repeat 13px -147px;
+	float: left;
+}
+.boxn .text{
+	float: left;
+	height: 18px;
+	width: 159px;
+	background:transparent;
+	border: none;
+	outline: none;
+	position: absolute;
+	padding: 11px 0px;
+	font-size: 15px;
+	text-indent: 13px;
+}
+.boxn .text{
+	float: left;
+	height: 18px;
+	width: 258px;
+	background:transparent;
+	border: none;
+	outline: none;
+	position: absolute;
+	padding: 11px 0px;
+	font-size: 15px;
+	text-indent: 13px;
+}
+.boxn .yzm{
+	float: right;
+	display: block;
+	font-size: 16px;
+	line-height: 40px;
+	color: white;
+	cursor: pointer;
+	margin-right: 10px;
+}
+input{
+	color: white;
+    outline: none;
+}
+.reg .monad .formn p{
+	margin-top: 4px;
+	text-align: center;
+	color: #ff3434;
+}
+.boxn .pass{
+	width: 40px;
+	height: 40px;
+	display: block;
+	background:url("../images/xuebi.png") no-repeat 13px -182px;
+	float: left;
+}
+.boxn .text{
+	float: left;
+	height: 18px;
+	width: 258px;
+	background:transparent;
+	border: none;
+	outline: none;
+	position: absolute;
+	padding: 11px 0px;
+	font-size: 15px;
+	text-indent: 13px;
+}
+.boxn .passn{
+	width: 40px;
+	height: 40px;
+	display: block;
+	background:url("../images/xuebi.png") no-repeat 13px -218px;
+	float: left;
+}
+
+.boxn .text{
+	float: left;
+	height: 18px;
+	width: 258px;
+	background:transparent;
+	border: none;
+	outline: none;
+	position: absolute;
+	padding: 11px 0px;
+	font-size: 15px;
+	text-indent: 13px;
+}
+.an{
+	width: 320px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: -20px;
+}
+.an .wm{
+	margin-left: 25px;
+}
+.an span{
+	color: white;
+}
+.dji{
+	width: 300px;
+	height: 55px;
+	margin: 0 auto;
+}
+.dji input{
+	width: 300px;
+	height: 40px;
+	background:lightgray;
+	border: none;
+	cursor: pointer;
+	text-align: center;
+	font-size: 16px;
+	color: white;
+	margin-top: 15px;
+	outline: none;
+}

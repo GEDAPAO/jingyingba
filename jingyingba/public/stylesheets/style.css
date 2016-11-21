@@ -1,0 +1,323 @@
+html{
+	font-size: 10px;
+}
+body {
+	margin: 0;
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	background:#f5f5f5;
+}
+
+h1,h2,ul,ol,p{
+	margin: 0;
+	padding: 0;
+}
+
+ul,ol{
+	list-style: none;
+}
+i,em{
+    font-style: normal;
+}
+a {
+  color: #00B7FF;
+  text-decoration: none;
+}
+
+
+
+
+
+/**header 头部样式**/
+
+.header{
+	width:100%;
+	height:90px;
+	background: #2d2e34;	
+}
+
+.header .content{
+	width: 1232px;
+	height: 90px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.header .left{
+	float: left;
+	height: 90px;
+	line-height: 90px;
+	color: #fff;
+	overflow: hidden;
+}
+.header .left h1{
+	float: left;
+	height: 90px;
+	line-height: 90px;
+}
+.header .left ul{
+	float: left;
+	width: 220px;
+	height: 90px;
+	padding-left: 38px;
+	font-size: 16px;
+	line-height: 90px;
+}
+.header .left ul li{
+	float: left;
+	height: 90px;
+	padding-right: 40px;
+	line-height: 90px;
+}
+.header .left ul li a{
+	color: #fff;
+}
+.header .left ul li a:hover{
+	color: #fb6c03;
+}
+.header .left h1 a {
+	display: block;
+	width: 	104px;
+	height: 90px;
+	background: url("../images/logo.png") 0 center no-repeat;
+	background-size: contain;
+}
+.right .photo{
+    display: none;
+    line-height: 90px;
+}
+.right .photo img{
+    vertical-align: middle;
+}
+.header .right{
+	height: 90px;
+	float: right;
+}
+.header .right .login{
+	height: 90px;
+	line-height: 90px;
+}
+.header .right .login a{
+	height: 90px;
+	line-height: 90px;
+	color:#fff;
+}
+.header .right .photo a{
+	height: 90px;
+	line-height: 90px;
+}
+.header .right .photo a{
+	color: #fff;
+}
+.header .right .photo a{
+	color: #fff;
+}
+.header .right .photo .ge:hover{
+	color: #fb6c03;
+}
+.header .right .photo .tui:hover{
+	color: #fb6c03;
+}
+.header .right .login .dl:hover{
+	color: #fb6c03;
+}
+.header .right .login .zc:hover{
+	color: #fb6c03;
+}
+.jiazhi{
+	display: block;
+	width: 107px;
+	height: 30px;
+	background: url("../images/jiazhi.png");
+	float: left;
+	margin-top: 25px;
+	margin-left: 15px;
+}
+.login{
+	font-size: 16px;
+}
+.login i{
+    color: white;
+    font-size: 16px;
+    margin: 0 11px;
+}
+.login .dengl{
+	display: block;
+	float: left;
+	width: 130px;
+	font-size: 16px;
+	height: 90px;
+	background:url("../images/ruzhu_bg.png");
+	text-align: center;
+	margin-left: -213px;
+}
+.login .dengl:hover{
+	background:#fb6c03;
+}
+
+
+/**footer 尾部样式**/
+.footer{
+	width: 100%;
+	height: 359px;
+	background: #2d2e34;
+}
+
+
+.footer .min_width{
+	width: 1232px;
+	height: 303px;
+	margin: 0 auto;
+	position: relative;
+}
+.min_width .footer_left{
+	width: 436px;
+	float: left;
+	margin-top: 34px;
+	margin-right: 66px;
+	margin-bottom: 78px;
+	position: relative;
+}
+.footer_left .pp{
+	margin-top: 15px;
+}
+.footer_left p{
+	margin-top: 2px;
+	color: #aeaeae;
+}
+.guanzhu{
+	margin-top: 30px;
+}
+.we{
+	color:#aeaeae;
+	float: left;
+}
+.weix{
+	display: block;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	background: url("../images/wx.png") no-repeat 1px 2px;
+	float: left;
+	margin-top: -5px;
+	margin-left: 20px;
+	cursor: pointer;
+
+}
+.weix:hover{
+	background: url("../images/wxl.png") no-repeat 1px 2px;
+}
+.wt{
+	width: 169px;
+	height: 182px;
+	background: url("../images/weixin.png");
+	position: absolute;
+	top:-25px;
+	left:10px;
+	display: none;
+}
+.weix:hover .wt{
+	display: block;
+}
+.weibo{
+	display: block;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	background: url("../images/wb.png") no-repeat 0px 0px;
+	float: left;
+	margin-top: -5px;
+	margin-left: 25px;
+	cursor: pointer;
+}
+.weibo:hover{
+	background: url("../images/wbl.png") no-repeat 0px 0px;
+}
+.dt{
+	width: 169px;
+	height: 182px;
+	background: url("../images/weibo.png");
+	position: absolute;
+	top:-25px;
+	left:70px;
+	display: none;
+}
+.weibo:hover .dt{
+	display: block;
+}
+.footer_center{
+	width: 450px;
+	position: absolute;
+	top:92px;
+	left: 496px;
+}
+.footer_center ul{
+	float: left;
+	color: white;
+}
+.footer_center ul li{
+	margin-top: 20px;
+}
+.footer_center ul li a{
+	color:#aeaeae;
+}
+.footer_center ul li a:hover{
+	color:white;
+}
+.footer_center .less{
+	margin-left: 40px;
+}
+.footer_center .fankui{
+	margin-left: 40px;
+}
+.footer_right{
+	width: 147px;
+	height: 100px;
+	position: absolute;
+	top:92px;
+	right: 0px;
+	text-align: left;
+}
+
+.kd .kdd a:hover{
+	text-decoration: none;
+}
+.kd li a{
+	color: white;
+    font-size: 14px;
+}
+.kd li a:hover{
+	text-decoration: underline;
+}
+.footer_right .guanfang{
+	margin-top: 30px;
+}
+.footer_right .jigou{
+	margin-top: 30px;
+}
+.footer_right .app{
+	width: 126px;
+	height: 137px;
+	background: url("../images/app.png");
+	position: absolute;
+	top:25px;
+	left:11px;
+	display: none;
+}
+.kd .kdd a:hover .app{
+	display: block;
+}
+
+.footer .foot_boot{
+	width: 1232px;
+	height: 54px;
+	margin: 0 auto;
+	background: #2d2e34;
+	border-top:1px solid #3b3c41;
+}
+.footer .foot_boot span{
+	width: 300px;
+	height: 54px;
+	display: block;
+	margin: 0 auto;
+	line-height: 54px;
+	color: white;
+}
